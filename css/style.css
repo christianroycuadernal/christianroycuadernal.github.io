@@ -1534,7 +1534,15 @@ a:focus {
 /* pdf experiment */
 
 /* PDF Album Modal Styles (add these if not already present) */
-/* .modal {
+/* 
+.portfolio-item-pdf {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer; 
+}
+.modal {
     display: none;
     position: fixed;
     z-index: 1;

@@ -115,7 +115,7 @@
 
 //     // PDF Album Modal Logic (targeting the #portfolio section)
 //     const portfolioSection = document.getElementById('portfolio');
-//     const portfolioItems = portfolioSection.querySelectorAll('.portfolio-item');
+//     const portfolioItems = portfolioSection.querySelectorAll('.portfolio-item-pdf');
 //     const pdfModal = document.getElementById('pdfModal');
 //     const pdfViewer = document.getElementById('pdfViewer');
 //     const closeButton = document.querySelector('.close-button');
