@@ -110,34 +110,34 @@
 
 // pdf experiment
 
-// document.addEventListener('DOMContentLoaded', function() {
-//     // Existing navigation and scroll logic remains the same
+document.addEventListener('DOMContentLoaded', function() {
+    // Existing navigation and scroll logic remains the same
 
-//     // PDF Album Modal Logic (targeting the #portfolio section)
-//     const portfolioSection = document.getElementById('portfolio');
-//     const portfolioItems = portfolioSection.querySelectorAll('.portfolio-item-pdf');
-//     const pdfModal = document.getElementById('pdfModal');
-//     const pdfViewer = document.getElementById('pdfViewer');
-//     const closeButton = document.querySelector('.close-button');
+    // PDF Album Modal Logic (targeting the #portfolio section)
+    const portfolioSection = document.getElementById('portfolio');
+    const portfolioItems = portfolioSection.querySelectorAll('.btn-pdf');
+    const pdfModal = document.getElementById('pdfModal');
+    const pdfViewer = document.getElementById('pdfViewer');
+    const closeButton = document.querySelector('.close-button');
 
-//     portfolioItems.forEach(item => {
-//         item.addEventListener('click', function() {
-//             const pdfUrl = this.dataset.pdfUrl;
-//             pdfViewer.src = pdfUrl;
-//             pdfModal.style.display = 'block';
-//         });
-//     });
+    portfolioItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const pdfUrl = this.dataset.pdfUrl;
+            pdfViewer.src = pdfUrl;
+            pdfModal.style.display = 'block';
+        });
+    });
 
-//     closeButton.addEventListener('click', function() {
-//         pdfModal.style.display = 'none';
-//         pdfViewer.src = '';
-//     });
+    closeButton.addEventListener('click', function() {
+        pdfModal.style.display = 'none';
+        pdfViewer.src = '';
+    });
 
-//     window.addEventListener('click', function(event) {
-//         if (event.target === pdfModal) {
-//             pdfModal.style.display = 'none';
-//             pdfViewer.src = '';
-//         }
-//     });
-// });
+    window.addEventListener('click', function(event) {
+        if (event.target === pdfModal) {
+            pdfModal.style.display = 'none';
+            pdfViewer.src = '';
+        }
+    });
+});
 

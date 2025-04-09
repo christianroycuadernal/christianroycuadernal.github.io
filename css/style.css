@@ -864,10 +864,25 @@ a:focus {
     position: relative;
 }
 
+.portfolio .portfolio-item-pdf {
+    position: relative;
+}
+
+.portfolio .portfolio-item-pdf img {
+    position: relative;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
 .portfolio .portfolio-wrap {
     position: relative;
     width: 100%;
 }
+
 
 .portfolio .portfolio-img {
     position: relative;
@@ -1534,14 +1549,8 @@ a:focus {
 /* pdf experiment */
 
 /* PDF Album Modal Styles (add these if not already present) */
-/* 
-.portfolio-item-pdf {
-    position: relative;
-    overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    cursor: pointer; 
-}
+
+
 .modal {
     display: none;
     position: fixed;
@@ -1584,4 +1593,4 @@ a:focus {
 #pdfViewer {
     width: 100%;
     height: 100%;
-} */
+}
